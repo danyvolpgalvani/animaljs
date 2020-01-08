@@ -1,0 +1,13 @@
+html
+    head
+        title #{animal.razza_animale}
+        link(rel='stylesheet', href='/css/style.css')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+    body
+        div(style='background: url('/images/${animal.id_figurina}'))
+        h1 #{animal.razza_animale}
+        h2 #{animal.specie_animale}
+        Provenienza: #{animal.area_provenienza}
+        div Foto:
+            img(src={animal.foto})
+

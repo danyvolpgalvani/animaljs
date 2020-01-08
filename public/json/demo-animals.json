@@ -1,0 +1,25 @@
+{
+    "animals" : [
+        {
+            "id_figurina" : 1,
+            "razza_animale" : "gatto",
+            "specie_animale" : "felino",
+            "area_provenienza" : ["Italia", 39],
+            "foto" : "https://i.some-random-api.ml/98y46WoOwX.jpg"
+        },
+        {
+            "id_figurina" : 2,
+            "razza_animale" : "volpe",
+            "specie_animale" : "felino",
+            "area_provenienza" : ["Grecia", 30],
+            "foto" : "https://i.imgur.com/OLiZKeG.jpg"
+        },
+        {
+            "id_figurina" : 3,
+            "razza_animale" : "uccello",
+            "specie_animale" : "volatile",
+            "area_provenienza" : ["Germania", 49],
+            "foto" : "https://i.some-random-api.ml/1stP458w9J.png"
+        }
+    ]
+}

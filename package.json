@@ -1,0 +1,19 @@
+{
+  "name": "album-animali",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iisgalvanimi/pug-json-danyvolpgalvani.git"
+  },
+  "author": "volpele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iisgalvanimi/pug-json-danyvolpgalvani/issues"
+  },
+  "homepage": "https://github.com/iisgalvanimi/pug-json-danyvolpgalvani#readme"
+}
