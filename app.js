@@ -9,7 +9,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/api/album-animali', (req, res) => {
-  res.sendfile(__dirname + '/public/json/demo-animals.json')
+  res.sendfile(__dirname + '/public/json/demo-animals.json');
+});
+
+app.post('/api/animal', (req, res, next) => {
+    res.send(JSON.stringify(req.body));
 });
 
 app.listen(3000, function () {

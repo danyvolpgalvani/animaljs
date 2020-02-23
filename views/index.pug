@@ -1,0 +1,25 @@
+head
+    title AnimalJS
+body
+    a(href='/api/album-animali') Album animali completo
+    br
+    br
+    form(action='/api/animal' method='post')
+        input(type='radio' id='volpe' name='animal' value='volpe')
+        label(for='volpe') Volpe
+        br
+        input(type='radio' id='gatto' name='animal' value='gatto')
+        label(for='gatto') Gatto
+        br
+        input(type='radio' id='uccello' name='animal' value='uccello')
+        label(for='uccello') Uccello
+        br
+        input(type='submit' value='Apri')
+
+//<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+    <input type="submit" value="Submit">
